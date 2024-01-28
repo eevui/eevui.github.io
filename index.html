@@ -1,0 +1,11 @@
+---
+layout: default
+title: Home
+---
+<h1>Eevee's Blog</h1>
+
+{% assign landingPost = site.posts.first %}
+<h2>{{ landingPost.title }}</h2>
+<a href="{{ landingPost.url }}">{{ landingPost.date | date_to_long_string: "ordinal" }}</a>
+
+{{ landingPost.content }}

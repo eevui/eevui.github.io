@@ -1,0 +1,14 @@
+{
+	"configs": [
+		{
+			"path": "*",
+			"fileExtension": "xml",
+			"headers": [
+				{
+					"key": "content-type",
+					"value": "application/atom+xml"
+				}
+			]
+		}
+	]
+}

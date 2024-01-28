@@ -1,0 +1,52 @@
+.current {
+	background-color: #ffffff24;
+}
+
+html {
+	background-color: black;
+}
+
+body {
+	color: white;
+	hyphens: auto;
+	font-size: 16px;
+	font-family: "Noto Serif", serif;
+	max-width: 80vw;
+	margin: auto;
+}
+
+p {
+	line-height: 1.75;
+}
+
+@media screen and (min-width: 450px) {
+	body {
+		font-size: 21px;
+		max-width: 480px;
+	}
+}
+
+nav {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 30px;
+}
+
+nav a {
+	color: #757575;
+	padding: 10px;
+}
+
+a {
+	color: #b9b9b9;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+a:hover {
+	color: inherit;
+}
+

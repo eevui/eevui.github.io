@@ -1,0 +1,27 @@
+url: "https://eevui.com"
+timezone: "Asia/Manila"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+jekyll-archives:
+  enabled:
+    - year
+  layouts:
+    year: year-archive
+  slug_mode: latin
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
