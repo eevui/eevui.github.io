@@ -1,5 +1,6 @@
 url: "https://eevui.com"
 timezone: "Asia/Manila"
+repository: "eevui/eevui.github.io"
 
 defaults:
   - scope:
